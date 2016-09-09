@@ -1,9 +1,11 @@
 body {
 	font-family: sans-serif;
 	text-align: center;
-	background: red;
-	width: 100%;
-  	margin: 0;
+ 	background-image: url(../photos/gridgame.gif);
+  	background-repeat: no-repeat;
+  	background-position: top left; 
+  	background-attachment: fixed;
+  	background-size: 1500px
 }
 
 .main {
@@ -33,6 +35,16 @@ a {
 }
 
 a:hover {
-	color: yellow;	
+	color: #9cf715;	
 }
 
+#blast{
+  width: 5px;
+  height: 50px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 0px;
+  right: 60px;
+} 
