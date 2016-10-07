@@ -14,11 +14,95 @@ body {
 	position: relative;
 }
 
-#bowl {
+.stem {
+	top: 50px;
+	left: 460px;
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	background: #a0c450;
+	transform: rotate (175deg);	
+}
+
+.vase {
+	left: 400px;
+	position: absolute;
+	top: 100px;
+	opacity: 0.8;
+}
+
+#neck{
+	left: 54px;
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: #048828;
+}
+
+#bowl {	
+   top: 60px;
+   position: absolute;
    display:block;
    width: 126px;
-   height: 180px;
-   background-color: red;
+   height: 160px;
+   background-color: #048828;
    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
    border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
 }
+
+#oval {
+	width: 110px;
+	height: 60px;
+	top: 158px;
+	left: 10px;
+   	position: absolute;
+   	opacity: 0.8;
+	background: #9acfa9;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;ß
+}
+
+#mat {
+	width: 700px;
+	height: 700px;
+	bottom: 50px;
+	left: 100px;
+   	position: absolute;
+	background: #ff0067;
+	-webkit-clip-path: polygon(51% 61%, 100% 69%, 49% 100%, 0 85%);
+clip-path: polygon(51% 61%, 100% 69%, 49% 100%, 0 85%);
+}
+
+#circle {
+	width: 180px;
+	height: 180px;
+	bottom: 120px;
+	left: 240px;
+   	position: absolute;
+	background: #ffe5ef;
+	-webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+}
+
+#pinapple {
+	width: 280px;
+	height: 280px;
+	bottom: 120px;
+	left: 360px;
+   	position: absolute;
+	background: #cc8500;
+	-webkit-clip-path: ellipse(26% 34% at 50% 51%);
+clip-path: ellipse(26% 34% at 50% 51%);
+}
+
+#flower {
+	width: 280px;
+	height: 280px;
+	left: 360px;
+   	position: absolute;
+	background: #ed901d;
+	-webkit-clip-path: polygon(36% 6%, 55% 37%, 62% 8%, 66% 35%, 84% 20%, 52% 60%, 16% 41%, 32% 40%, 17% 16%, 43% 41%);
+clip-path: polygon(36% 6%, 55% 37%, 62% 8%, 66% 35%, 84% 20%, 52% 60%, 16% 41%, 32% 40%, 17% 16%, 43% 41%);
+}
+
+
