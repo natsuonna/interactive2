@@ -1,0 +1,44 @@
+body{
+	/*background-color: black;*/
+	background-repeat: repeat;	
+	background-image: url(../images/gifs/spiral4.gif);
+	background-size: 500px;
+	background-position: top left; 
+	background-attachment: fixed;
+}
+
+#circle1 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/spiral3.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+
+#circle2 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid4.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 660px;
+	right: 290px;
+}
+
+#circle3 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid5.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 1199px;
+	left: 255px;
+}
