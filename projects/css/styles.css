@@ -1,44 +1,379 @@
 body{
-	/*background-color: black;*/
+	background-color: black;
 	background-repeat: repeat;	
-	background-image: url(../images/gifs/spiral4.gif);
-	background-size: 500px;
+	background-image: url(../photos/giphy.gif);
+	background-size: 1000px;
 	background-position: top left; 
 	background-attachment: fixed;
 }
 
-#circle1 {
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/gifs/spiral3.gif);
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
+
+/* THE LETTER A */ 
+
+#A1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
 	position: absolute;
-	top: 150px;
-	left: 250px;
+	top: 100px;
+	left: 150px;
+	background: red;
 }
 
-#circle2 {
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/gifs/grid4.gif);
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
+#A2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
 	position: absolute;
-	top: 660px;
-	right: 290px;
+	top: 100px;
+	left: 150px;
+	background: red;
 }
 
-#circle3 {
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/gifs/grid5.gif);
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
+#A3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
 	position: absolute;
-	top: 1199px;
-	left: 255px;
+	top: 100px;
+	left: 330px;
+	background: red;
 }
+
+#A4 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 160px;
+	left: 150px;
+	background: red;
+}
+
+/* THE LETTER B */ 
+
+#B1 { /* Top Bar */ 
+	width: 175px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	background: red;
+}
+
+#B2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	background: red;
+}
+
+#B3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 60px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 610px;
+	background: red;
+}
+
+#B4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 160px;
+	left: 630px;
+	background: red;
+}
+
+#B5 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 160px;
+	left: 450px;
+	background: red;
+}
+
+#B6 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 235px;
+	left: 450px;
+	background: red;
+}
+
+/* THE LETTER C */ 
+
+#C1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background: red;
+}
+
+#C2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background: red;
+}
+
+#C3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 915px;
+	background: red;
+}
+
+#C4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 220px;
+	left: 915px;
+	background: red;
+}
+
+#C5 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 235px;
+	left: 750px;
+	background: red;
+}
+
+/* THE LETTER D */ 
+
+#D1 { /* Top Bar */ 
+	width: 150px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 100px;
+	left: 1090px;
+	background: red;
+}
+
+#D2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 120px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 1085px;
+	background: red;
+}
+
+#D3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 1235px;
+	background: red;
+}
+
+#D4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 220px;
+	left: 1070px;
+	background: red;
+}
+
+
+#D5 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 235px;
+	left: 1070px;
+	background: red;
+}
+
+/* THE LETTER E */ 
+
+#E1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	background: red;
+}
+
+#E2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	background: red;
+}
+
+#E3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 330px;
+	background: red;
+}
+
+#E4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 420px;
+	left: 330px;
+	background: red;
+}
+
+#E5 { /* Crossbar */ 
+	width: 170px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 150px;
+	background: red;
+}
+
+#E6 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 435px;
+	left: 150px;
+	background: red;
+}
+
+/* THE LETTER F */ 
+
+#F1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	background: red;
+}
+
+#F2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	background: red;
+}
+
+#F3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 630px;
+	background: red;
+}
+
+#F4 { /* Crossbar */ 
+	width: 170px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 450px;
+	background: red;
+}
+
+/* THE LETTER G */ 
+
+#G1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 300px;
+	left: 750px;
+	background: red;
+}
+
+#G2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 750px;
+	background: red;
+}
+
+#G3 { /* Crossbar */ 
+	width: 150px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 780px;
+	background: red;
+}
+
+#G4 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 915px;
+	background: red;
+}
+
+#G5 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 915px;
+	background: red;
+}
+
+#G6 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 435px;
+	left: 750px;
+	background: red;
+}
+
+/* THE LETTER H */ 
+
+#H1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 1070px;
+	background: red;
+}
+
+#H2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 1235px;
+	background: red;
+}
+
+#H3 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 1070px;
+	background: red;
+}
+
+
