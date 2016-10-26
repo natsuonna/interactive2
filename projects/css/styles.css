@@ -376,4 +376,157 @@ body{
 	background: red;
 }
 
+/* THE LETTER I */ 
+
+#I1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	background: red;
+}
+
+#I2 { /* Middle Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 240px;
+	background: red;
+}
+
+#I3 { /* Left Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	background: red;
+}
+
+#I4 { /* Left Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 150px;
+	background: red;
+}
+
+#I5 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 330px;
+	background: red;
+}
+
+#I6 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 330px;
+	background: red;
+}
+
+#I7 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 635px;
+	left: 150px;
+	background: red;
+}
+
+/* THE LETTER J */ 
+
+#J1 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 630px;
+	background: red;
+}
+
+#J2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 450px;
+	background: red;
+}
+
+#J3 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 635px;
+	left: 450px;
+	background: red;
+}
+
+/* THE LETTER K */ 
+
+#K1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 750px;
+	background: red;
+}
+
+#K2 { /* Top Bar */ 
+	width: 15px; /* Line width */ 
+	height: 180px; /* Length */ 
+	position: absolute;
+	top: 450px;
+	left: 830px;
+	background: red;
+	transform: rotate(70deg);
+}
+
+#K3 { /* Bottom Bar */ 
+	width: 15px; /* Line width */ 
+	height: 170px; /* Length */ 
+	position: absolute;
+	top: 520px;
+	left: 830px;
+	background: red;
+	transform: rotate(115deg);
+}
+
+/* THE LETTER L */ 
+
+#L1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 1070px;
+	background: red;
+}
+
+#L2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 1235px;
+	background: red;
+}
+
+#L3 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 635px;
+	left: 1070px;
+	background: red;
+}
 
