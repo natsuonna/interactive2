@@ -1,0 +1,1502 @@
+body{
+	background-color: #7f17d8;
+	background-repeat: repeat;	
+	/*background-image: url(../photos/giphy.gif);*/
+	background-size: 1800px;
+	background-position: top left; 
+	background-attachment: fixed;
+	padding-bottom: 100px;
+	width: 100%
+}
+
+
+/* THE LETTER A */ 
+
+#A1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	background: red;
+}
+
+#A1:hover{
+	background-color: #9e32ea;
+}
+
+#A2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	background: red;
+}
+
+#A2:hover{
+	background-color: #9e32ea;
+}
+
+#A3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 330px;
+	background: red;
+}
+
+#A3:hover{
+	background-color: #9e32ea;
+}
+
+#A4 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 160px;
+	left: 150px;
+	background: red;
+}
+
+#A4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER B */ 
+
+#B1 { /* Top Bar */ 
+	width: 175px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	background: red;
+}
+
+#B1:hover{
+	background-color: #9e32ea;
+}
+
+#B2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	background: red;
+}
+
+#B2:hover{
+	background-color: #9e32ea;
+}
+
+#B3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 60px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 610px;
+	background: red;
+}
+
+#B3:hover{
+	background-color: #9e32ea;
+}
+
+#B4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 160px;
+	left: 630px;
+	background: red;
+}
+
+#B4:hover{
+	background-color: #9e32ea;
+}
+
+#B5 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 160px;
+	left: 450px;
+	background: red;
+}
+
+#B5:hover{
+	background-color: #9e32ea;
+}
+
+#B6 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 235px;
+	left: 450px;
+	background: red;
+}
+
+#B6:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER C */ 
+
+#C1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background: red;
+}
+
+#C1:hover{
+	background-color: #9e32ea;
+}
+
+#C2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 750px;
+	background: red;
+}
+
+#C2:hover{
+	background-color: #9e32ea;
+}
+
+#C3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 915px;
+	background: red;
+}
+
+#C3:hover{
+	background-color: #9e32ea;
+}
+
+#C4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 220px;
+	left: 915px;
+	background: red;
+}
+
+#C4:hover{
+	background-color: #9e32ea;
+}
+
+#C5 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 235px;
+	left: 750px;
+	background: red;
+}
+
+#C5:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER D */ 
+
+#D1 { /* Top Bar */ 
+	width: 150px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 100px;
+	left: 1090px;
+	background: red;
+}
+
+#D1:hover{
+	background-color: #9e32ea;
+}
+
+#D2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 120px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 1085px;
+	background: red;
+}
+
+#D2:hover{
+	background-color: #9e32ea;
+}
+
+#D3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 100px;
+	left: 1235px;
+	background: red;
+}
+
+#D3:hover{
+	background-color: #9e32ea;
+}
+
+#D4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 220px;
+	left: 1070px;
+	background: red;
+}
+
+#D4:hover{
+	background-color: #9e32ea;
+}
+
+#D5 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 235px;
+	left: 1070px;
+	background: red;
+}
+
+#D5:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER E */ 
+
+#E1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	background: red;
+}
+
+#E1:hover{
+	background-color: #9e32ea;
+}
+
+#E2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	background: red;
+}
+
+#E2:hover{
+	background-color: #9e32ea;
+}
+
+#E3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 330px;
+	background: red;
+}
+
+#E3:hover{
+	background-color: #9e32ea;
+}
+
+#E4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 420px;
+	left: 330px;
+	background: red;
+}
+
+#E4:hover{
+	background-color: #9e32ea;
+}
+
+#E5 { /* Crossbar */ 
+	width: 170px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 150px;
+	background: red;
+}
+
+#E5:hover{
+	background-color: #9e32ea;
+}
+
+#E6 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 435px;
+	left: 150px;
+	background: red;
+}
+
+#E6:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER F */ 
+
+#F1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	background: red;
+}
+
+#F1:hover{
+	background-color: #9e32ea;
+}
+
+#F2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 450px;
+	background: red;
+}
+
+#F2:hover{
+	background-color: #9e32ea;
+}
+
+#F3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 630px;
+	background: red;
+}
+
+#F3:hover{
+	background-color: #9e32ea;
+}
+
+#F4 { /* Crossbar */ 
+	width: 170px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 450px;
+	background: red;
+}
+
+#F4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER G */ 
+
+#G1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 300px;
+	left: 750px;
+	background: red;
+}
+
+#G1:hover{
+	background-color: #9e32ea;
+}
+
+#G2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 750px;
+	background: red;
+}
+
+#G2:hover{
+	background-color: #9e32ea;
+}
+
+#G3 { /* Crossbar */ 
+	width: 150px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 780px;
+	background: red;
+}
+
+#G3:hover{
+	background-color: #9e32ea;
+}
+
+#G4 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 915px;
+	background: red;
+}
+
+#G4:hover{
+	background-color: #9e32ea;
+}
+
+#G5 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 915px;
+	background: red;
+}
+
+#G5:hover{
+	background-color: #9e32ea;
+}
+
+#G6 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 435px;
+	left: 750px;
+	background: red;
+}
+
+#G6:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER H */ 
+
+#H1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 1070px;
+	background: red;
+}
+
+#H1:hover{
+	background-color: #9e32ea;
+}
+
+#H2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 300px;
+	left: 1235px;
+	background: red;
+}
+
+#H2:hover{
+	background-color: #9e32ea;
+}
+
+#H3 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 360px;
+	left: 1070px;
+	background: red;
+}
+
+#H3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER I */ 
+
+#I1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	background: red;
+}
+
+#I1:hover{
+	background-color: #9e32ea;
+}
+
+#I2 { /* Middle Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 240px;
+	background: red;
+}
+
+#I2:hover{
+	background-color: #9e32ea;
+}
+
+#I3 { /* Left Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 150px;
+	background: red;
+}
+
+#I3:hover{
+	background-color: #9e32ea;
+}
+
+#I4 { /* Left Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 150px;
+	background: red;
+}
+
+#I4:hover{
+	background-color: #9e32ea;
+}
+
+#I5 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 330px;
+	background: red;
+}
+
+#I5:hover{
+	background-color: #9e32ea;
+}
+
+#I6 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 330px;
+	background: red;
+}
+
+#I6:hover{
+	background-color: #9e32ea;
+}
+
+#I7 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 635px;
+	left: 150px;
+	background: red;
+}
+
+#I7:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER J */ 
+
+#J1 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 630px;
+	background: red;
+}
+
+#J1:hover{
+	background-color: #9e32ea;
+}
+
+#J2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 450px;
+	background: red;
+}
+
+#J2:hover{
+	background-color: #9e32ea;
+}
+
+#J3 { /* Bottom Bar */ 
+	width: 195px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 635px;
+	left: 450px;
+	background: red;
+}
+
+#J3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER K */ 
+
+#K1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 750px;
+	background: red;
+}
+
+#K1:hover{
+	background-color: #9e32ea;
+}
+
+#K2 { /* Top Bar */ 
+	width: 15px; /* Line width */ 
+	height: 180px; /* Length */ 
+	position: absolute;
+	top: 450px;
+	left: 830px;
+	background: red;
+	transform: rotate(70deg);
+}
+
+#K2:hover{
+	background-color: #9e32ea;
+}
+
+#K3 { /* Bottom Bar */ 
+	width: 15px; /* Line width */ 
+	height: 170px; /* Length */ 
+	position: absolute;
+	top: 520px;
+	left: 830px;
+	background: red;
+	transform: rotate(115deg);
+}
+
+#K3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER L */ 
+
+#L1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 500px;
+	left: 1070px;
+	background: red;
+}
+
+#L1:hover{
+	background-color: #9e32ea;
+}
+
+#L2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 620px;
+	left: 1235px;
+	background: red;
+}
+
+#L2:hover{
+	background-color: #9e32ea;
+}
+
+#L3 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 635px;
+	left: 1070px;
+	background: red;
+}
+
+#L3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER M */ 
+
+#M1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 700px;
+	left: 150px;
+	background: red;
+}
+
+#M1:hover{
+	background-color: #9e32ea;
+}
+
+#M2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 150px;
+	background: red;
+}
+
+#M2:hover{
+	background-color: #9e32ea;
+}
+
+#M3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 330px;
+	background: red;
+}
+
+#M3:hover{
+	background-color: #9e32ea;
+}
+
+#M4 { /* Middle Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 240px;
+	background: red;
+}
+
+#M4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER N */ 
+
+#N1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 450px;
+	background: red;
+}
+
+#N1:hover{
+	background-color: #9e32ea;
+}
+
+#N2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 450px;
+	background: red;
+}
+
+#N2:hover{
+	background-color: #9e32ea;
+}
+
+#N3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 630px;
+	background: red;
+}
+
+#N3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER O */ 
+
+#O1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 700px;
+	left: 750px;
+	background: red;
+}
+
+#O1:hover{
+	background-color: #9e32ea;
+}
+
+#O2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 750px;
+	background: red;
+}
+
+#O2:hover{
+	background-color: #9e32ea;
+}
+
+#O3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 915px;
+	background: red;
+}
+
+#O3:hover{
+	background-color: #9e32ea;
+}
+
+#O4 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 835px;
+	left: 750px;
+	background: red;
+}
+
+#O4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER P */ 
+
+#P1 { /* Top Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 700px;
+	left: 1070px;
+	background: red;
+}
+
+#P1:hover{
+	background-color: #9e32ea;
+}
+
+#P2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 1070px;
+	background: red;
+}
+
+#P2:hover{
+	background-color: #9e32ea;
+}
+
+#P3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 70px; /* Length */ 
+	position: absolute;
+	top: 700px;
+	left: 1235px;
+	background: red;
+}
+
+#P3:hover{
+	background-color: #9e32ea;
+}
+
+#P4 { /* Cross Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 760px;
+	left: 1070px;
+	background: red;
+}
+
+#P4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER Q */ 
+
+#Q1 { /* Top Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 900px;
+	left: 150px;
+	background: red;
+}
+
+#Q1:hover{
+	background-color: #9e32ea;
+}
+
+#Q2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 150px;
+	background: red;
+}
+
+#Q2:hover{
+	background-color: #9e32ea;
+}
+
+#Q3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 330px;
+	background: red;
+}
+
+#Q3:hover{
+	background-color: #9e32ea;
+}
+
+#Q4 { /* Bottom Bar */ 
+	width: 195px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 1035px;
+	left: 150px;
+	background: red;
+}
+
+#Q4:hover{
+	background-color: #9e32ea;
+}
+
+#Q5 { /* Diagonal Bar */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 960px;
+	left: 290px;
+	background: red;
+	transform: rotate(130deg);
+}
+
+#Q5:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER R */ 
+
+#R1 { /* Top Bar */ 
+	width: 190px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 450px;
+	background: red;
+}
+
+#R1:hover{
+	background-color: #9e32ea;
+}
+
+#R2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 450px;
+	background: red;
+}
+
+#R2:hover{
+	background-color: #9e32ea;
+}
+
+#R3 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 960px;
+	left: 610px;
+	background: red;
+}
+
+#R3:hover{
+	background-color: #9e32ea;
+}
+
+#R4 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 75px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 630px;
+	background: red;
+}
+
+#R4:hover{
+	background-color: #9e32ea;
+}
+
+#R5 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 960px;
+	left: 450px;
+	background: red;
+}
+
+#R5:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER S */ 
+
+#S1 { /* Top Bar */ 
+	width: 180px; /* Length */ 
+	height: 15px; /* Line width */ 
+	position: absolute;
+	top: 900px;
+	left: 750px;
+	background: red;
+}
+
+#S1:hover{
+	background-color: #9e32ea;
+}
+
+#S2 { /* Left Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 1020px;
+	left: 750px;
+	background: red;
+}
+
+#S2:hover{
+	background-color: #9e32ea;
+}
+
+#S3 { /* Left Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 75px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 750px;
+	background: red;
+}
+
+#S3:hover{
+	background-color: #9e32ea;
+}
+
+#S4 { /* Crossbar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 960px;
+	left: 750px;
+	background: red;
+}
+
+#S4:hover{
+	background-color: #9e32ea;
+}
+
+#S5 { /* Right Bar 1 */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 915px;
+	background: red;
+}
+
+#S5:hover{
+	background-color: #9e32ea;
+}
+
+#S6 { /* Right Bar 2 */ 
+	width: 15px; /* Line width */ 
+	height: 75px; /* Length */ 
+	position: absolute;
+	top: 960px;
+	left: 915px;
+	background: red;
+}
+
+#S6:hover{
+	background-color: #9e32ea;
+}
+
+#S7 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 1035px;
+	left: 750px;
+	background: red;
+}
+
+#S7:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER T */ 
+
+#T1 { /* Top Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 900px;
+	left: 1070px;
+	background: red;
+}
+
+#T1:hover{
+	background-color: #9e32ea;
+}
+
+#T2 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 1070px;
+	background: red;
+}
+
+#T2:hover{
+	background-color: #9e32ea;
+}
+
+#T3 { /* Middle Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 1150px;
+	background: red;
+}
+
+#T3:hover{
+	background-color: #9e32ea;
+}
+
+#T4 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 30px; /* Length */ 
+	position: absolute;
+	top: 900px;
+	left: 1235px;
+	background: red;
+}
+
+#T4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER U */ 
+
+#U1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 1100px;
+	left: 150px;
+	background: red;
+}
+
+#U1:hover{
+	background-color: #9e32ea;
+}
+
+#U2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 1100px;
+	left: 330px;
+	background: red;
+}
+
+#U2:hover{
+	background-color: #9e32ea;
+}
+
+#U3 { /* Bottom Bar */ 
+	width: 180px; /* Line width */ 
+	height: 15px; /* Length */
+	position: absolute;
+	top: 1235px;
+	left: 150px;
+	background: red;
+}
+
+#U3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER V */ 
+
+#V1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 170px; /* Length */ 
+	position: absolute;
+	top: 1090px;
+	left: 495px;
+	background: red;
+	transform: rotate(150deg);
+}
+
+#V1:hover{
+	background-color: #9e32ea;
+}
+
+#V2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 170px; /* Length */ 
+	position: absolute;
+	top: 1090px;
+	left: 585px;
+	background: red;
+	transform: rotate(210deg);
+}
+
+#V2:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER W */ 
+
+#W1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 1100px;
+	left: 750px;
+	background: red;
+}
+
+#W1:hover{
+	background-color: #9e32ea;
+}
+
+#W2 { /* Left Bar Slanted */ 
+	width: 15px; /* Line width */ 
+	height: 109px; /* Length */ 
+	position: absolute;
+	top: 1158px;
+	left: 792px;
+	background: red;
+	transform: rotate(235deg);
+}
+
+#W2:hover{
+	background-color: #9e32ea;
+}
+
+#W3 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 150px; /* Length */ 
+	position: absolute;
+	top: 1100px;
+	left: 915px;
+	background: red;
+}
+
+#W3:hover{
+	background-color: #9e32ea;
+}
+
+#W4 { /* Right Bar Slanted */ 
+	width: 15px; /* Line width */ 
+	height: 109px; /* Length */ 
+	position: absolute;
+	top: 1158px;
+	left: 875px;
+	background: red;
+	transform: rotate(125deg);
+}
+
+#W4:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER X */ 
+
+#X1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 220px; /* Length */ 
+	position: absolute;
+	top: 1070px;
+	left: 1140px;
+	background: red;
+	transform: rotate(130deg);
+}
+
+#X1:hover{
+	background-color: #9e32ea;
+}
+
+#X2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 220px; /* Length */ 
+	position: absolute;
+	top: 1070px;
+	left: 1140px;
+	background: red;
+	transform: rotate(230deg);
+}
+
+#X2:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER Y */ 
+
+#Y1 { /* Left Bar */ 
+	width: 15px; /* Line width */ 
+	height: 120px; /* Length */ 
+	position: absolute;
+	top: 1300px;
+	left: 200px;
+	background: red;
+	transform: rotate(130deg);
+}
+
+#Y1:hover{
+	background-color: #9e32ea;
+}
+
+#Y2 { /* Right Bar */ 
+	width: 15px; /* Line width */ 
+	height: 120px; /* Length */ 
+	position: absolute;
+	top: 1300px;
+	left: 280px;
+	background: red;
+	transform: rotate(230deg);
+}
+
+#Y2:hover{
+	background-color: #9e32ea;
+}
+
+#Y3 { /* Middle Bar */ 
+	width: 15px; /* Line width */ 
+	height: 90px; /* Length */ 
+	position: absolute;
+	top: 1380px;
+	left: 240px;
+	background: red;
+}
+
+#Y3:hover{
+	background-color: #9e32ea;
+}
+
+/* THE LETTER Z */ 
+
+#Z1 { /* Top Bar */ 
+	width: 190px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 1315px;
+	left: 450px;
+	background: red;
+}
+
+#Z1:hover{
+	background-color: #9e32ea;
+}
+
+#Z2 { /* Cross Bar */ 
+	width: 15px; /* Line width */ 
+	height: 230px; /* Length */ 
+	position: absolute;
+	top: 1275px;
+	left: 540px;
+	background: red;
+	transform: rotate(234deg);
+}
+
+#Z2:hover{
+	background-color: #9e32ea;
+}
+
+#Z3 { /* Bottom Bar */ 
+	width: 190px; /* Length */ 
+	height: 15px; /* Length */ 
+	position: absolute;
+	top: 1450px;
+	left: 450px;
+	background: red;
+}
+
+#Z3:hover{
+	background-color: #9e32ea;
+}
+
+.padding{
+	width: 20px;
+	height: 100px;
+	position: absolute;
+	top:1465px;
+}
+
+#Pull_Indicator{
+    position: fixed;
+    right: 15px;
+    bottom:15px;
+    z-index:10;
+    width: 0;
+  	height: 0;
+  	transform: scale(1,1);
+  	border-bottom: 15px solid red;
+  	border-left: 15px solid blue;    
+}
+
+
+
+

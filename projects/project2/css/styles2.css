@@ -1,0 +1,289 @@
+body{
+  background-color: #7f17d8;
+  background-repeat: repeat;  
+  /*background-image: url(../photos/giphy.gif);*/
+  background-size: 1800px;
+  background-position: top left; 
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  width: 100%
+}
+
+/* THE LETTER A */ 
+
+#A1 { /* Top Bar */ 
+  width: 80%; /* Length */ 
+  height: 15px; /* Line width */ 
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background: red;
+}
+
+#A1:hover{
+  background-color: #9e32ea;
+}
+
+#A2 { /* Left Bar */ 
+  width: 15px; /* Line width */ 
+  height: 650px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background: red;
+}
+
+#A2:hover{
+  background-color: #9e32ea;
+}
+
+#A3 { /* Right Bar */ 
+  width: 15px; /* Line width */ 
+  height: 650px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 90%;
+  background: red;
+}
+
+#A3:hover{
+  background-color: #9e32ea;
+}
+
+#A4 { /* Crossbar */ 
+  width: 80%; /* Line width */ 
+  height: 15px; /* Length */ 
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  background: red;
+}
+
+#A4:hover{
+  background-color: #9e32ea;
+} 
+
+/* THE LETTER B */ 
+
+#B1 { /* Top Bar */ 
+  width: 75%; /* Length */ 
+  height: 15px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background: red;
+}
+
+#B1:hover{
+  background-color: #9e32ea;
+}
+
+#B2 { /* Left Bar */ 
+  width: 15px; /* Line width */ 
+  height: 650px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background: red;
+}
+
+#B2:hover{
+  background-color: #9e32ea;
+}
+
+#B3 { /* Right Bar 1 */ 
+  width: 15px; /* Line width */ 
+  height: 215px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 85%;
+  background: red;
+}
+
+#B3:hover{
+  background-color: #9e32ea;
+}
+
+#B4 { /* Right Bar 2 */ 
+  width: 15px; /* Line width */ 
+  height: 465px; /* Length */ 
+  position: absolute;
+  top: 300px;
+  left: 90%;
+  background: red;
+}
+
+#B4:hover{
+  background-color: #9e32ea;
+}
+
+#B5 { /* Crossbar */ 
+  width: 80%; /* Line width */ 
+  height: 15px; /* Length */ 
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  background: red;
+}
+
+#B5:hover{
+  background-color: #9e32ea;
+}
+
+#B6 { /* Bottom Bar */ 
+  width: 80%; /* Line width */ 
+  height: 15px; /* Length */
+  position: absolute;
+  top: 750px;
+  left: 150px;
+  background: red;
+}
+
+#B6:hover{
+  background-color: #9e32ea;
+}
+
+/* THE LETTER C */ 
+
+#C1 { /* Top Bar */ 
+  width: 80%; /* Length */ 
+  height: 15px; /* Line width */ 
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background: red;
+}
+
+#C1:hover{
+  background-color: #9e32ea;
+}
+
+#C2 { /* Left Bar */ 
+  width: 15px; /* Line width */ 
+  height: 650px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  background: red;
+}
+
+#C2:hover{
+  background-color: #9e32ea;
+}
+
+#C3 { /* Right Bar 1 */ 
+  width: 15px; /* Line width */ 
+  height: 80px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+  background: red;
+}
+
+#C3:hover{
+  background-color: #9e32ea;
+}
+
+#C4 { /* Right Bar 2 */ 
+  width: 15px; /* Line width */ 
+  height: 80px; /* Length */ 
+  position: absolute;
+  top: 685px;
+  left: 1300px;
+  background: red;
+}
+
+#C4:hover{
+  background-color: #9e32ea;
+}
+
+#C5 { /* Bottom Bar */ 
+  width: 80%; /* Line width */ 
+  height: 15px; /* Length */
+  position: absolute;
+  top: 750px;
+  left: 150px;
+  background: red;
+}
+
+#C5:hover{
+  background-color: #9e32ea;
+}
+
+/* THE LETTER D */ 
+
+#D1 { /* Top Bar */ 
+  width: 80%; /* Length */ 
+  height: 15px; /* Line width */ 
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  background: red;
+}
+
+#D1:hover{
+  background-color: #9e32ea;
+}
+
+#D2 { /* Left Bar */ 
+  width: 15px; /* Line width */ 
+  height: 575px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  background: red;
+}
+
+#D2:hover{
+  background-color: #9e32ea;
+}
+
+#D3 { /* Right Bar */ 
+  width: 15px; /* Line width */ 
+  height: 665px; /* Length */ 
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+  background: red;
+}
+
+#D3:hover{
+  background-color: #9e32ea;
+}
+
+#D4 { /* Left Bar 2 */ 
+  width: 15px; /* Line width */ 
+  height: 80px; /* Length */ 
+  position: absolute;
+  top: 675px;
+  left: 150px;
+  background: red;
+}
+
+#D4:hover{
+  background-color: #9e32ea;
+}
+
+#D5 { /* Bottom Bar */ 
+  width: 80%; /* Line width */ 
+  height: 15px; /* Length */
+  position: absolute;
+  top: 750px;
+  left: 150px;
+  background: red;
+}
+
+#D5:hover{
+  background-color: #9e32ea;
+}
+
+
+
+.padding{
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  top:800px;
+}
+
+
