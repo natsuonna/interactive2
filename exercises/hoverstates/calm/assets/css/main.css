@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #fff;
+}
+
+.canvas {
+	width: 100vw;
+	height: 100vh;
+	background: rgb(255,255,255);
+	position: relative;
+}
+
+#gradient-1, #gradient-2 {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+
+}
+
+
+#gradient-2 {
+	background: linear-gradient(125deg, #ff00ea, #f9ff00, #3ee400);
+	background-size: 600% 600%;
+
+	animation: gradient-1 100ms ease infinite;
+}
+
+#gradient-1 {
+	background: linear-gradient(262deg, #0005ff, #00ffd4, #00dbff);
+	background-size: 600% 600%;
+
+	animation: gradient-2 100ms ease infinite;
+}
+
+
+/* animations */
+
+@keyframes gradient-1{ 
+    0%{background-position:0% 88%}
+    50%{background-position:1000% 13%}
+    100%{background-position:0% 88%}
+}
+
+
+@keyframes gradient-2 { 
+    0%{background-position:50% 0%; transform: translateY(0vh);}
+    50%{background-position:500% 500%; transform: translateY(200vh);}
+    100%{background-position:50% 0%; transform: translateY(0vh);}
+}	
+
+/* hover */
+
+.canvas:hover #gradient-1 {
+	animation: gradient-1 2000s ease infinite;
+}
+
+.canvas:hover #gradient-2 {
+	animation: gradient-2 2000s ease infinite;
+}
