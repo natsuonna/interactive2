@@ -156,14 +156,14 @@ p#image-paragraph #image-4 {
 
 .slide-in {
 	opacity: 0;
-	-webkit-transform: translate(400px, 0);
+	-webkit-transform: translate(0, 400px);
 }
 
 /* when you hover on #paragraph-3, we're adjusting the x position of the .slide-out text, and .slide-in */
 
 #sliding-paragraph:hover .slide-out {
 	opacity: 0;
-	-webkit-transform: translate(-400px, 0);
+	-webkit-transform: translate(0px, -400px);
 }
 
 #sliding-paragraph:hover .slide-in {
@@ -186,17 +186,17 @@ p#image-paragraph #image-4 {
     display: block;
     top: 50%;
     margin-top: -130px;
-    left: 50%;
+    left: 100%;
     margin-left: -100px;
-    background-color: yellow;
+    background-color: purple;
 
-	-webkit-transform: rotate(45deg);
+	-webkit-transform: rotate(90deg);
 	-webkit-transition: all 500ms ease-in-out;
 
 }
 
 #shape-paragraph:hover #square {
-	background-color: orange; 
+	background-color: blue; 
 	border-radius: 100px;	
 
 	-webkit-transform: scale(2.25);
