@@ -13,7 +13,7 @@ var camera = {
 	},
 	up : {
 		x : 0,
-		y : 1,
+		y : 1,            
 		z : 0
 	},
 	zoom : 1,
