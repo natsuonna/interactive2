@@ -24,6 +24,9 @@ body {background:#000000;}
     width: 0;
   	height: 0;
   	transform: scale(1,1);
-  	border-bottom: 15px solid red;
-  	border-left: 15px solid blue;    
+  	border-bottom: 15px solid white;
+  	border-left: 15px solid white;    
 }
+
+
+

@@ -1,0 +1,95 @@
+/* THIS IS THE FIRST PAGE */
+
+body{
+	/*background-color: #7f17d8;*/
+	background-repeat: repeat;	
+	background-image: url(../photos/neverending.gif);
+	background-size: 1500px;
+	background-position: center; 
+	background-attachment: fixed;
+	padding-bottom: 100px;
+	width: 100%; 
+  background-color: #F2F4FE;
+  font-family: 'lato', sans-serif;
+  color: white;
+} 
+
+.about{
+  width: 31%;
+  height: 84%;
+  background-color: transparent;
+  z-index: 10;
+  position: absolute;
+  left: 61.5%;
+  top: 7%;
+  padding: 25px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  opacity: 0;
+}
+.about:hover{
+  opacity: 1;
+}
+
+.museum{
+  font-size: 20px;
+  transform: rotate(-90deg);
+  color: white;
+  top: 380px;
+  left:100px;
+  position: absolute;
+  opacity: 0; 
+}
+.museum:hover{
+  opacity: 1;
+}
+
+.persona{
+  font-size: 20px;
+  transform: rotate(90deg);
+  color: white;
+  top: 380px;
+  right: 100px;
+  position: absolute;
+  opacity: 0; 
+}
+
+.persona:hover{
+  opacity: 1;
+}
+
+.popup{
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 2s ease-in-out;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.popup:hover{
+  height: 96px;
+  width: 97px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+

@@ -3,12 +3,12 @@
 body{
 	background-repeat: repeat;	
 	/*background-image: url(../photos/neverending.gif);*/ 
-	background-size: 1500px;
+	background-size: 1200px;
 	background-position: center; 
 	background-attachment: fixed;
 	padding-bottom: 100px;
 	width: 100%; 
-	background-color: #F2F4FE;
+	background-color: #ffdada;
 } 
 
 .logo{
@@ -68,7 +68,7 @@ body{
 	width: 100%;
 	max-width: 800px;
 	height: 800px;
-	background: #F2F4FE;
+	background: #e4e4ff;
 }
 
 .items__layer .items__item {
@@ -176,6 +176,6 @@ body{
 	line-height: 20px;
 	margin: auto;
 	text-align: center;
-	color: #fc00ff;
+	color: white;
 }
 

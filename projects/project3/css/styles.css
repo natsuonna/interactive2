@@ -3,7 +3,7 @@
 body{
 	/*background-color: #7f17d8;*/
 	background-repeat: repeat;	
-	background-image: url(../photos/neverending.gif);
+	background-image: url(../img/neverending.gif);
 	background-size: 1500px;
 	background-position: center; 
 	background-attachment: fixed;
@@ -11,7 +11,26 @@ body{
 	width: 100%; 
   background-color: #F2F4FE;
   font-family: 'lato', sans-serif;
+  color: white;
 } 
+
+.about{
+  width: 31%;
+  height: 84%;
+  background-color: transparent;
+  z-index: 10;
+  position: absolute;
+  left: 61.5%;
+  top: 7%;
+  padding: 25px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  opacity: 0;
+}
+.about:hover{
+  opacity: 1;
+}
 
 .museum{
   font-size: 20px;
@@ -41,14 +60,24 @@ body{
 }
 
 .popup{
-  height: 5px;
-  width: 5px;
+  height: 100px;
+  width: 100px;
   background-color: black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 2s ease-in-out;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
 }
 
 .popup:hover{
@@ -58,65 +87,8 @@ body{
 }
 
 
-/* Tooltip container 
-.tooltip {
-  color: blue;
-  position: relative;
-  top:375px;
-  left:710px;
-  display: inline-block;
-  /* border-bottom: 1px dotted black;  If you want dots under the hoverable text 
-}
-
-/* Tooltip text 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 100px;
-  height: 80px;
-  background-color: blue;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! 
-  position: absolute;
-  z-index: 1;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
 
 
-
-.tooltip .tooltiptext {
-  width: 120px;
-  top: 10%;
-  left: 50%; 
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip 
-}
-
-.tooltip .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 10%; /* At the bottom of the tooltip 
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black transparent transparent transparent;
-}
-
-.tooltip .tooltiptext {
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.tooltip:hover .tooltiptext {
-  opacity: 1;
-} 
 
 
 

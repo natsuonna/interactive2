@@ -2,7 +2,21 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 body {
-  background: #F2F4FE;
+  background: #e4e4ff;
+}
+
+.gs-button{
+  -webkit-animation-name: greenPulse;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    transform: scale(1.3);
+    transition: all 1s ease-in-out;
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #009b57; -webkit-box-shadow: 0 0 9px #7F7E7E; }
+  50% { background-color: #1CAE6F; -webkit-box-shadow: 0 0 18px #1CAE6F; }
+  to { background-color: #009b57; -webkit-box-shadow: 0 0 9px #7F7E7E; }
 }
 
 .container {
